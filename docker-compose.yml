@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  ghost:
+    image: ghost:5.110
+    container_name: ghost_5110_app
+    restart: always
+    ports:
+      - "5110:2368"
+    environment:
+      NODE_ENV: development
+      url: http://localhost:5110
+    volumes:
+      - ghost_5110_content:/var/lib/ghost/content
+
+volumes:
+  ghost_5110_content:
