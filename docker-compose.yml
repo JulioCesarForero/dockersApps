@@ -15,6 +15,3 @@ services:
 
 volumes:
   ghost_5110_content:
-
-
-
