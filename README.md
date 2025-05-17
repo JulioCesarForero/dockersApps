@@ -52,3 +52,10 @@ docker-compose down -v
 - El sitio está configurado en modo desarrollo
 - Los datos se persisten incluso después de reiniciar el contenedor
 - Esta versión incluye las características más recientes de Ghost 5.x
+
+
+
+"NAME": "Grupo9"
+"EMAIL": "grupo9@uniandes.edu.co",
+"PASSWORD": "adminadmin",
+
